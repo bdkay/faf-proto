@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>School Selection</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link media="screen" type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,700" />
+    <link media="screen" type="text/css" rel="stylesheet" href="../css/app.css" />
+    <script type="text/javascript" src="../js/vendor/modernizr.custom.48281.js"></script>
+  </head>
+  <body class="page_form">
+
+    
+
+    <div id="main-page">
+
+      <header>
+		
+	<div id="super-header">
+		<div class="container-fluid">
+						
+				<a class="alpha visible-phone" href="/">Exit</a>
+				<h1>
+					<span class="visible-phone">FAFSA</span>
+					<a href="/">
+						<img src="../img/img_logo-form.png" class="hidden-phone" alt="Federal Student Aid FAFSA" />
+					</a>
+				</h1>
+				<span class="sub-header">2013 Free Application for Student Aid</span>
+				<div class="span3 offset9">
+					<span><a
+				</div>
+				<a class="omega visible-phone" href="#">Help</a>
+									
+		</div>
+	</div>
+	<!--
+		
+		<div id="sub-header">
+			<div class="hidden-phone">
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span8">
+							<h2>FAFSA 2013-2014</h2>
+							<p class="">Guided mode <a href="#" class="guide-toggler disabled">On</a></p>
+						</div>
+						<div class="span4">
+							<a href="#">See FAFSA Summary</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Save &amp; Exit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="visible-phone" id="mobile-progress">
+			</div>
+		</div>
+		
+-->
+</header>
+
+      
+      <div id="main-content" class="expert-mode">
+        
+        <div class="content-block">
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="app-progress tall hidden-phone" id="progress_full-app" data-progress="40">
+	
+		<a href="#" class="progress-dot dot-on alpha">Student Information</a>
+	
+		<a href="#" class="progress-dot dot-on">Eligibility</a>
+	
+		<a href="#" class="progress-dot dot-on">School Selections</a>
+	
+		<a href="#" class="progress-dot dot-off">Finances</a>
+	
+		<a href="#" class="progress-dot dot-off">Dependency</a>
+	
+		<a href="#" class="progress-dot dot-off">Parent Information</a>
+	
+		<a href="#" class="progress-dot dot-off">Error Check</a>
+	
+		<a href="#" class="progress-dot dot-off omega">Sign & Complete</a>
+	
+</div>
+
+      <div id="main-form" class="form_container">
+        <div id="help-me">
+	<div class="content">
+		<form action="" class="ignore">
+			<h2>How can we help?</h2>
+			<label for="help_search" hidden>Ask us a Question:</label>
+			<input type="search" id="help_search"placeholder="Ask us a question" />
+			<input type="submit" class="btn-search" value="search" />
+		</form>
+	</div>
+</div>
+        <div id="form-header">
+          <h3>School Selection</h3>
+          <div class="row-fluid">
+            <div class="span6 offset3">
+              <p><span class="progress-number">1</span><span class="content">What schools should we send a copy of your application to?</span></p>
+            </div>
+          </div>
+          <a href="#" class="help-me_toggle hidden-phone"><span>Need Help ?</span></a>
+        </div>
+        <form action="" class="form-section">
+          <div class="content">
+            <div class="row-fluid">
+              <h3>Find schools that you're interested in attending.</h3>
+              <p>These were the schools that were saved in your account. You can choose up to 10 schools that you would like to receive a copy of your application.</p>
+            </div>
+            <div class="row-fluid">
+              <div class="span5">
+                <label for="student_information_search">Name, City & State, School Code, or </label>
+              </div>
+              <div class="span5">
+                
+	<label for="student_information_search" class="hidden">Name, City & State, School Code, or 
+		
+	</label>
+	<input
+		type="text"
+		
+		id="student_information_search"
+		name="student_information_search"
+		
+		
+		
+		 />
+
+              </div>
+              <div class="span2">
+                <a class="btn btn-small btn-green arrow-right" href="/#">Search</a>
+              </div>
+            </div>
+            <div class="row-fluid school-selection-header">
+              <div class="span4">
+                <h2>My Added Schools</h2>
+              </div>
+              <div class="span8">
+                <p>You can still add up to <span class="school-amount">10</span> additional schools</p>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <table id="dragTable" class="tableExample">
+                <thead> 
+                <tr class="top"> 
+                  <th></th>
+                  <th>School Name</th> 
+                  <th>Locations</th> 
+                  <th>School Type</th> 
+                  <th></th>
+                </tr> 
+                </thead> 
+                <tbody> 
+                <tr data-school="Depaul University" data-tuition="30000" data-room-and-board="500" data-population="50000">
+                  <td class="school-check-box"><input type="checkbox"></td>
+                  <td>Depaul University</td> 
+                  <td>Chicago, IL 60601</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr> 
+                <tr data-school="Depaw University" data-tuition="25000" data-room-and-board="250" data-population="30000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Depaw University</td> 
+                  <td>Chicago, IL 60601</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a
+                  </td> 
+                </tr> 
+                <tr data-school="The Illinois Institute of Art" data-tuition="35000" data-room-and-board="300" data-population="40000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>The Illinois Institute of Art</td>
+                  <td>Schaumburg, IL 60159</td> 
+                  <td>Technical Institution</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down" href="#"></a>
+                  </td> 
+                </tr> 
+                <tr data-school="Parsons School of Design" data-tuition="50000" data-room-and-board="1000" data-population="75000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Parsons School of Design</td> 
+                  <td>New York, NY 10009</td> 
+                  <td>Technical Institution</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr>
+                <tr data-school="Ohio State University" data-tuition="20000" data-room-and-board="400" data-population="100000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Ohio State University</td> 
+                  <td>Columbus, OH 43210</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr>
+                <tr data-school="University of Illinois" data-tuition="20000" data-room-and-board="600" data-population="60000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>University of Illinois</td> 
+                  <td>Champaign, IL 61801</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr>
+                <tr data-school="Columbia College Chicago" data-tuition="40000" data-room-and-board="1000" data-population="30000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Columbia College Chicago</td> 
+                  <td>Chicago, IL 60605</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr>  
+                <tr data-school="Illinois State University" data-tuition="15000" data-room-and-board="375" data-population="40000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Illinois State University</td> 
+                  <td>Normal, IL 61761</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr>
+                <tr data-school="Northern Illinois University" data-tuition="14000" data-room-and-board="400" data-population="90000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Northern Illinois University</td> 
+                  <td>DeKalb, IL 60115</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr> 
+                <tr data-school="Texas Tech University" data-tuition="25000" data-room-and-board="600" data-population="80000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Texas Tech University</td> 
+                  <td>Lubbock, TX 79401</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr>
+                <tr data-school="Loyola University" data-tuition="45000" data-room-and-board="700" data-population="40000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Loyola University</td> 
+                  <td>Chicago, IL 60626</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr>
+                <tr data-school="Northwestern University" data-tuition="75000" data-room-and-board="900" data-population="50000">
+                  <td class="school-check-box"><input type="checkbox"></td> 
+                  <td>Northwestern University</td> 
+                  <td>Evanston, IL 60208</td> 
+                  <td>College/University</td> 
+                  <td class="school-row-arrows">
+                    <a class="ic_triangle-up up"></a>
+                    <a class="ic_triangle-down down"></a>
+                  </td> 
+                </tr>       
+                </tbody> 
+              </table> 
+            </div>
+            <div class="row-fluid">
+              <div class="span4">
+                <a href="#" class="btn btn-small btn-grey remove-selected">Remove Selected</a>
+              </div>
+              <div class="span4">
+                <a href="#" id="school-compare-selected" class="btn btn-small btn-green">Compare Selected</a>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="row-fluid school-selection-header">
+                <div class="span4">
+                  <h2>Quick Comparison</h2>
+                </div>
+                <div class="span8">
+                  <a href="#">Show Me an Advanced Comparison</a>
+                </div>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span7 school-compare-field">
+                <label for="student_information_comparison_field">Compare:</label>
+                <select required="required" name="student_information_comparison_field" id="student_information_comparison_field">
+<option value="tuition">Tuition</option>
+<option value="room-and-board">Room & Board</option>
+<option value="population">Population</option></select>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="compared-fields-chart_container">
+                <div class="compared-fields-chart">
+                  <div class="tuition school-charts"></div>
+                  <div class="room-and-board school-charts"></div>
+                  <div class="population school-charts"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row-fluid" id="form-footer">
+              <div class="row-fluid">
+                <div class="span6 alpha">
+                  <a href="#" class="btn btn-small btn-grey arrow-left">Back</a>
+                </div>
+                <div class="span6 omega">
+                  <a class="btn btn-small btn-green arrow-right" href="/error-check_pass.html">Save &amp; Continue</a>
+                </div>
+              </div>
+            </div>          
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="../js/vendor/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.validate.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.knob.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+  </body>
+</html>

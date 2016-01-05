@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>FAFSA Dashboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=News+Cycle:400,700" media="screen" />
+    <link type="text/css" rel="stylesheet" href="../css/app.css" media="screen" />
+    <script type="text/javascript" src="../js/vendor/modernizr.custom.48281.js"></script>
+  </head>
+  <body class="page_generic">
+
+    
+      <div id="mobile-nav">
+  
+    <h4>Account</h4>
+    <ul>
+      <li><a href="login.html">Login</a></li>
+  
+  <h4>Resources</h4>
+  <ul>
+    <li><a href="#">Learn</a></li>
+    <li><a href="#">Prepare</a></li>
+    <li><a href="#">Apply</a></li>
+    <li><a href="#">Repay</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</div>
+
+    
+
+    <div id="main-page">
+
+      <header>
+		
+	<div id="social-share" class="hidden-phone">
+		<div class="container-fluid">
+			<ul>
+				<li><a href="#"><img src="../img/img_facebook.jpg" alt="facebook share" /></a></li>
+				<li><a href="#"><img src="../img/img_twitter.jpg" alt="twitter share" /></a></li>
+				<li><a href="#"><img src="../img/img_youtube.jpg" alt="FAFSA YouTube Channel" /></a></li>
+			</ul>
+			<ul id="font-resizer">
+				<li class="smaller"><a href="#">A</a></li>
+				<li class="normal"><a href="#">A</a></li>
+				<li class="larger"><a href="#">A</a></li>
+			</ul>
+		</div>
+	</div>
+		
+	<div id="super-header">
+		<div class="container-fluid">
+						
+				<h1>
+					<a href="/">
+						<img class="hidden-phone" src="../img/img_logo.png" alt="Federal Student Aid FAFSA" />
+						<img class="visible-phone" src="../img/img_mobile-logo.png" alt="Federal Student Aid FAFSA" />
+					</a>
+				</h1>
+				<ul class="visible-phone mobile-nav">
+					<li><a href="#" class="btn_mobile-search ic_magnify"><span>Search</span></a></li>
+					<li><a href="#" class="btn_mobile-nav ic_menu"><span>Open</span></a></li>
+				</ul>
+				<div id="header-meta">
+					<div class="hidden-phone">
+												
+						<a class="link_account" href="#">Hi Jake Smith</a> | <a href="register.html">Register</a>						
+							<a href="#" class="tooltip-link hidden-phone" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, voluptate, porro, facilis magni harum tempore omnis ipsum earum libero voluptatem excepturi sapiente animi alias distinctio ipsa accusamus cupiditate recusandae expedita.">?</a>
+						
+					</div>
+					<div class="" id="main-search">
+						<div class="search">
+							<form action="#">
+								
+	<label for="main_search" class="hidden">Search FAFSA
+		
+	</label>
+	<input
+		type="search"
+		
+		id="main_search"
+		name="main_search"
+		placeholder="Search studentaid.gov"
+		
+		
+		 />
+
+								<input type="submit" value="&gt;" />
+							</form>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+	</div>
+		
+		<div id="sub-header" class="hidden-phone">
+			<div class="container-fluid">
+				<div class="row-fluid">
+										
+						<div class="span12">
+							<h2>Landing Page (nav will go here)</h2>
+						</div>
+													
+				</div>
+			</div>
+		</div>
+	
+</header>
+
+      
+      <div id="main-content" class="">
+        
+        <div class="content-block closeable-block dashboard-recommends">
+  <div class="row-fluid">
+    <div class="span2 alpha">
+    	<h2>We recommend you:</h2>
+    	<p>Before you start exploring, take the time to look at some things that are not totally complete. We want to make your life easier so the more you tell us the more we can help you.</p>
+    </div>
+    <div class="span9 omega">
+	    <div class="row-fluid">
+		    <div class="span4 block-recommend">
+		    	<div class="background-recommend recommend-complete">
+			    	<h3>Complete Your Profile</h3>
+			    	<h4>90%</h4>
+			    </div>
+		    </div>
+		    <div class="span4 block-recommend">
+		    	<div class="background-recommend recommend-hs">
+			    	<h3>Add Your High School</h3>
+			    	<h4>0%</h4>
+			    </div>
+		    </div>
+		    <div class="span4 block-recommend">
+		    	<div class="background-recommend recommend-review">
+			    	<h3>Review Your Settings</h3>
+			    	<h4>60%</h4>
+			    </div>
+		    </div>
+		  </div>
+		  <div class="row-fluid align-right">
+		  	<div class="span12">
+		  		<a class="btn btn-grey btn-small" href="#">Remind Me Later</a>
+		  	</div>
+		  </div>
+		</div>
+  </div>
+  <a href="#" class="toggler">Close</a>
+</div>
+<div class="white_full-width">
+	<div class="content-block slider-container my-dashboard">
+	  <section class="slider">
+  <div class="flexslider-nav">
+    <ol class="row-fluid">
+      <li class="span2"><a>Aid Timeline</a></li>
+      <li class="span2"><a>My Aid</a></li>
+      <li class="span2"><a>Documents</a></li>
+      <li class="span2"><a>Tools &amp; Resources</a></li>
+      <li class="span2"><a>Profile</a></li>
+    </ol>
+  </div>
+  <div class="flexslider">
+    <ul class="slides">
+      <!-- slide : Aid Timeline -->
+      <li id="slide_timeline">
+        <div class="row-fluid align-center row_header visible-phone">
+          <div class="span12">
+            <h2>Aid Timeline</h2>
+          </div>
+        </div>
+        <div class="slide-content row-fluid">
+          <div class="span12">
+            <div class="row-fluid dashboard_slide-header">
+	<div class="span12">
+		<h3>
+			<label for="dashboard_aid_timeline">Aid Timeline of an </label>
+			<select name="dashboard_aid_timeline" id="dashboard_aid_timeline">
+<option value="Undergraduate Student">Undergraduate Student</option>
+<option value="Graduate Student">Graduate Student</option></select>
+		</h3>
+	</div>
+</div>
+<div class="row-fluid timeline-container">
+	<div class="span3 sidebar hidden-phone">
+		<h2>Milestones</h2>
+		<ul>
+			<li>
+				<h3><a href="#">Repay <span>4</span></a></h3>
+			</li>
+			<li>
+				<h3><a href="#">Graduate <span>3</span></a></h3>
+			</li>
+			<li>
+				<h3><a href="#">Attending College <span>2</span></a></h3>
+			</li>
+			<li class="active">
+				<h3 class="completed"><a href="#">Preparing for College <span>1</span></a></h3>
+				<div class="content">
+					<p><a href="#">You completed your FAFSA.</a></p>
+					<h3>Next Steps:</h3>
+					<p>Entrance Counseling</p>
+					<p><a href="#">Your Master Promissory Note</a></p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="span9 timeline-copy">
+		<div class="row-fluid timeline-choices">
+			<div class="span2">
+				<h3>Show Me:</h3>
+			</div>
+			<div class="span9 btn-group">
+				<button class="btn btn-green btn-smooth" data-activity="all">All My Activity</button>
+				<button class="btn btn-light-grey btn-smooth" data-activity="required">Required Tasks</button>
+				<button class="btn btn-light-grey btn-smooth" data-activity="future">Future Tasks</button>
+			</div>
+		</div>
+		<div class="timeline-content">
+			<div class="bordered">
+				<a href="#" class="callout">I've Started College</a>
+				<div class="timeline-event event_form" data-activity="required">
+					<h4>Complete Master Promissary Note</h4>
+				</div>
+				<h5 class="timeline-date"><span>June 1</span></h5>
+				<div class="timeline-event event_graduate" data-activity="required">
+					<h4>Graduate High School</h4>
+				</div>
+				<div class="timeline-event event_view" data-activity="required">
+					<h4>View Your Student Aid Report</h4>			
+				</div>
+				<div class="timeline-event event_message with-callout" data-activity="future">
+					<div class="callout">
+						<h4>New Message from Federal Student Aid</h4>
+						<p>Hey Jake!<br />
+							Welcome to your new student portal account. Your information has been sent to the SSA for verification. Take a moment to get familiar with your portal. Before you get started applying for aid we recommend that you finish your profile and</p>
+					</div>
+				</div>
+				<h5 class="timeline-date"><span>May 15</span></h5>
+				<div class="timeline-event event_complete with-callout" data-activity="required">
+					<div class="callout">
+						<h3>FAFSA Started!</h3>
+					</div>
+				</div>
+				<div class="timeline-event event_alert with-callout" data-activity="future">
+					<div class="callout">
+						<h4>University of Maryland FAFSA Deadline Nov 25th <a href="#">Remind Me Again</a></h4>
+					</div>
+				</div>
+				<div class="timeline-event event_video with-callout" data-activity="future">
+					<div class="callout">
+						<p>You're ready to fill out the FAFSA go for it! If you’d like more information first, we can help.</p>
+						<p>"FAFSA Overview" <a href="#">View accessible</a></p>
+					</div>
+				</div>
+				<div class="timeline-event event_alert" data-activity="required">
+					<h4>Complete A FAFSA <a href="#">Show Details</a></h4>
+				</div>
+				<div class="timeline-event event_complete" data-activity="future">
+					<h4>Apply For College <a href="#">Show Details</a></h4>
+				</div>
+				<div class="timeline-event event_complete" data-activity="future">
+					<h4>Learn About Aid <a href="#">Show Details</a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+          </div>
+        </div>
+      </li>
+      <!-- slide : My Aid -->
+      <li id="slide_aid">
+        <div class="row-fluid align-center row_header visible-phone">
+          <div class="span12">
+            <h2>My Aid</h2>
+          </div>
+        </div>
+        <div class="slide-content row-fluid">
+          <div class="span12">
+            <div class="row-fluid dashboard_slide-header">
+	<div class="span12">
+		<h3>My Aid Overview</h3>
+	</div>
+</div>
+<div class="row-fluid aid-overview">
+	<div class="span3 mobile-half">
+		<h3>Outstanding Loan Balance</h3>
+		<h4>$15,600</h4>
+	</div>
+	<div class="span2 mobile-half">
+		<h3>Grants</h3>
+		<h4>$5,000</h4>
+	</div>
+	<div class="span3 mobile-grey">
+		<h3>Lifetime Pell Grant Eligibility</h3>
+		<div class="dial-container">
+			<h3>60%</h3>
+			<label for="my_aid_grant" hidden>Lifetime Pell Grant Eligibility</label>
+			<input type="text" value="60" class="dial" name="my_aid_grant" id="my_aid_grant" data-readOnly=true data-width="90" data-height="90" data-fgColor="#598234" data-bgColor="#fff" />
+		</div>
+	</div>
+	<div class="span4 mobile-grey">
+		<h3>Subsidized Loan enrollment limits</h3>
+		<h5>Your program: 4 year degree</h5>
+		<div class="enrollment-period" data-years="4.5">
+			<div class="span2">&nbsp;</div>
+			<div class="span2">&nbsp;</div>
+			<div class="span2">&nbsp;</div>
+			<div class="span2">&nbsp;</div>
+			<div class="span2">&nbsp;</div>
+			<div class="span2 omega">&nbsp;</div>
+		</div>
+		<h5>You have received subsidized loans for 4.5 of the 6 year maximum enrollment period</h5>
+	</div>
+</div>
+<div class="row-fluid aid-tables">
+	<div class="row-fluid faux-header">
+		<div class="span3">
+			<h3>Loans</h3>
+		</div>
+		<div class="span2">
+			<h2>Total Balance<span class="visible-phone">:</span></h2>
+			<h3>$15,600</h3>
+		</div>
+		<div class="span2">
+			<h2>Interest Rate<span class="visible-phone">:</span></h2>
+			<h3>5.2%</h3>
+		</div>
+		<div class="span5">
+			<a href="#">Estimate Your Payments</a><span class="hidden-phone"> | </span><a href="#">Consolidate Your Loans</a>
+		</div>
+	</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="tablesorter">
+		<thead>
+			<th class="filler sorter-false">&nbsp;</th>
+			<th>Loans
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="hidden-phone">Date
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="hidden-phone">Type
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="col-half hidden-phone">Interest
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="hidden-phone">Servicer
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th>Outstand Balance
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="filler sorter-false">&nbsp;</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="filler sorter-false">&nbsp;</td>
+				<td>
+					Sub Loan 1
+					<span class="extra-info">Sep 2010</span>
+				</td>
+				<td class="hidden-phone">Sep 2010</td>
+				<td class="hidden-phone">Subsidized</td>
+				<td class="col-half hidden-phone">3.4%</td>
+				<td class="hidden-phone"><a href="#" class="toggle">Fannie Mae</a></td>
+				<td>
+					$5,500
+					<span class="extra-info">3.4%</span>
+				</td>
+				<td class="toggler"><a href="#">&nbsp;</a></td>
+			</tr>
+			<tr class="tablesorter-childRow">
+				<td colspan="8">
+					<div class="row-fluid data-heading">
+						<div class="span5">
+							<h3>School: University of Ohia</h3>
+						</div>
+						<div class="span2">
+							<h2>Remaining Amount</h2>
+							<h3>$1,000</h3>
+						</div>
+						<div class="span2">
+							<h2>Amount Disbursed</h2>
+							<h3>$2,500</h3>
+						</div>
+						<div class="span2">
+							<h2>Total Amount</h2>
+							<h3>$3,500</h3>
+						</div>
+					</div>
+					<div class="row-fluid data-content">
+						<div class="span6">
+							<h4>No Payment Plan Selected</h4>
+							<h4>Servicer: <span>FannieMae</span></h4>
+						</div>
+						<div class="span6">
+							<h4>First Disbursement: Sept 1, 2012</h4>
+							<h4>Next Disbursement: June 17, 2013</h4>
+						</div>
+					</div>
+					<div class="row-fluid data-btn">
+						<div class="span12">
+							<a href="#" class="btn btn-green btn-small">Make A Payment</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="filler sorter-false">&nbsp;</td>
+				<td>
+					Sub Loan 3
+					<span class="extra-info">Nov 2001</span>
+				</td>
+				<td class="hidden-phone">Nov 2001</td>
+				<td class="hidden-phone">Subsidized</td>
+				<td class="col-half hidden-phone">6.4%</td>
+				<td class="hidden-phone"><a href="#" class="toggle">Fannie Mae</a></td>
+				<td>
+					$4,000
+					<span class="extra-info">6.4%</span>
+				</td>
+				<td class="toggler"><a href="#">&nbsp;</a></td>
+			</tr>
+			<tr class="tablesorter-childRow">
+				<td colspan="8">
+					<div class="row-fluid data-heading">
+						<div class="span5">
+							<h3>School: University of Ohia</h3>
+						</div>
+						<div class="span2">
+							<h2>Remaining Amount</h2>
+							<h3>$1,000</h3>
+						</div>
+						<div class="span2">
+							<h2>Amount Disbursed</h2>
+							<h3>$2,500</h3>
+						</div>
+						<div class="span2">
+							<h2>Total Amount</h2>
+							<h3>$3,500</h3>
+						</div>
+					</div>
+					<div class="row-fluid data-content">
+						<div class="span6">
+							<h4>No Payment Plan Selected</h4>
+							<h4>Servicer: <span>FannieMae</span></h4>
+						</div>
+						<div class="span6">
+							<h4>First Disbursement: Sept 1, 2012</h4>
+							<h4>Next Disbursement: June 17, 2013</h4>
+						</div>
+					</div>
+					<div class="row-fluid data-btn">
+						<div class="span12">
+							<a href="#" class="btn btn-green btn-small">Make A Payment</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="filler sorter-false">&nbsp;</td>
+				<td>
+					Sub Loan 3
+					<span class="extra-info">March 2013</span>
+				</td>
+				<td class="hidden-phone">March 2013</td>
+				<td class="hidden-phone">Subsidized</td>
+				<td class="col-half hidden-phone">5.4%</td>
+				<td class="hidden-phone"><a href="#" class="toggle">Fannie Mae</a></td>
+				<td>
+					$3,500
+					<span class="extra-info">5.4%</span>
+				</td>
+				<td class="sorter-false toggler"><a href="#">&nbsp;</a></td>
+			</tr>
+			<tr class="tablesorter-childRow">
+				<td colspan="8">
+					<div class="row-fluid data-heading">
+						<div class="span5">
+							<h3>School: University of Ohia</h3>
+						</div>
+						<div class="span2">
+							<h2>Remaining Amount</h2>
+							<h3>$1,000</h3>
+						</div>
+						<div class="span2">
+							<h2>Amount Disbursed</h2>
+							<h3>$2,500</h3>
+						</div>
+						<div class="span2">
+							<h2>Total Amount</h2>
+							<h3>$3,500</h3>
+						</div>
+					</div>
+					<div class="row-fluid data-content">
+						<div class="span6">
+							<h4>No Payment Plan Selected</h4>
+							<h4>Servicer: <span>FannieMae</span></h4>
+						</div>
+						<div class="span6">
+							<h4>First Disbursement: Sept 1, 2012</h4>
+							<h4>Next Disbursement: June 17, 2013</h4>
+						</div>
+					</div>
+					<div class="row-fluid data-btn">
+						<div class="span12">
+							<a href="#" class="btn btn-green btn-small">Make A Payment</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="row-fluid aid-tables">
+	<div class="row-fluid faux-header">
+		<div class="span3">
+			<h3>Grants</h3>
+		</div>
+		<div class="span2">
+			<h2>Total Grants</h2>
+			<h3>$5,000</h3>
+		</div>
+		<div class="span2">
+			<h2>% of Lifetime Limit</h2>
+			<h3>63%</h3>
+		</div>
+		<div class="span5">&nbsp;</div>
+	</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="tablesorter">
+		<thead>
+			<th class="filler sorter-false">&nbsp;</th>
+			<th>Loans
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="col-half hidden-phone">Date
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="col-half hidden-phone">Type
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="hidden-phone">Total Amount
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="hidden-phone">Amount Disbursed
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th>Amount Remaining
+				<span class="arrow-both">&#xe002;</span>
+				<span class="arrow-down">&#xe008;</span>
+				<span class="arrow-up">&#xe00c;</span>
+			</th>
+			<th class="filler sorter-false">&nbsp;</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="filler sorter-false">&nbsp;</td>
+				<td>
+					Sub Loan 1
+					<span class="extra-info">Sep 2011</span>
+				</td>
+				<td class="col-half hidden-phone">Sep 2011</td>
+				<td class="col-half hidden-phone">Pell</td>
+				<td class="hidden-phone">3.4%</td>
+				<td class="hidden-phone">$2,500</td>
+				<td>
+					$3,500
+					<span class="extra-info">3.4%</span>
+				</td>
+				<td class="toggler"><a href="#">&nbsp;</a></td>
+			</tr>
+			<tr class="tablesorter-childRow">
+				<td colspan="8">
+					<div class="row-fluid data-heading">
+						<div class="span5">
+							<h3>School: University of Ohia</h3>
+						</div>
+						<div class="span2">
+							<h2>Remaining Amount</h2>
+							<h3>$1,000</h3>
+						</div>
+						<div class="span2">
+							<h2>Amount Disbursed</h2>
+							<h3>$2,500</h3>
+						</div>
+						<div class="span2">
+							<h2>Total Amount</h2>
+							<h3>$3,500</h3>
+						</div>
+					</div>
+					<div class="row-fluid data-content">
+						<div class="span6">
+							<h4>No Payment Plan Selected</h4>
+							<h4>Servicer: <span>FannieMae</span></h4>
+						</div>
+						<div class="span6">
+							<h4>First Disbursement: Sept 1, 2012</h4>
+							<h4>Next Disbursement: June 17, 2013</h4>
+						</div>
+					</div>
+					<div class="row-fluid data-btn">
+						<div class="span12">
+							<a href="#" class="btn btn-green btn-small">Make A Payment</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="filler sorter-false">&nbsp;</td>
+				<td>
+					Unsub Loan 1
+					<span class="extra-info">Nov 2013</span>
+				</td>
+				<td class="col-half hidden-phone">Nov 2013</td>
+				<td class="col-half hidden-phone">Subsidized</td>
+				<td class="hidden-phone">6.8%</td>
+				<td class="hidden-phone">$1,000</td>
+				<td>
+					$3,500
+					<span class="extra-info">6.8%</span>
+				</td>
+				<td class="toggler"><a href="#">&nbsp;</a></td>
+			</tr>
+			<tr class="tablesorter-childRow">
+				<td colspan="8">
+					<div class="row-fluid data-heading">
+						<div class="span5">
+							<h3>School: University of Ohia</h3>
+						</div>
+						<div class="span2">
+							<h2>Remaining Amount</h2>
+							<h3>$1,000</h3>
+						</div>
+						<div class="span2">
+							<h2>Amount Disbursed</h2>
+							<h3>$2,500</h3>
+						</div>
+						<div class="span2">
+							<h2>Total Amount</h2>
+							<h3>$3,500</h3>
+						</div>
+					</div>
+					<div class="row-fluid data-content">
+						<div class="span6">
+							<h4>No Payment Plan Selected</h4>
+							<h4>Servicer: <span>FannieMae</span></h4>
+						</div>
+						<div class="span6">
+							<h4>First Disbursement: Sept 1, 2012</h4>
+							<h4>Next Disbursement: June 17, 2013</h4>
+						</div>
+					</div>
+					<div class="row-fluid data-btn">
+						<div class="span12">
+							<a href="#" class="btn btn-green btn-small">Make A Payment</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+          </div>
+        </div>
+      </li>
+      <!-- slide : Documents -->
+      <li id="slide_documents">
+        <div class="row-fluid align-center row_header visible-phone">
+          <div class="span12">
+            <h2>Documents</h2>
+          </div>
+        </div>
+        <div class="slide-content row-fluid">
+          <div class="span12">
+            <p>slide : Documents</p>
+          </div>
+        </div>
+      </li>
+      <!-- slide : Tools &amp; Resources -->
+      <li id="slide_tools">
+        <div class="row-fluid align-center row_header visible-phone">
+          <div class="span12">
+            <h2>Tools &amp; Resources</h2>
+          </div>
+        </div>
+        <div class="slide-content row-fluid">
+          <div class="span12">
+            <p>slide : Tools &amp; Resources</p>
+          </div>
+        </div>
+      </li>
+      <!-- slide : Profile -->
+      <li id="slide_profile">
+        <div class="row-fluid align-center row_header visible-phone">
+          <div class="span12">
+            <h2>Profile</h2>
+          </div>
+        </div>
+        <div class="slide-content row-fluid">
+          <div class="span12">
+            <p>slide : Profile</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+	</div>
+</div>
+
+      </div>
+
+      
+
+        <footer class="hidden-phone">
+	<div class="container-fluid">
+		<div class="row-fluid footer-columns">
+			<div class="span2">
+				<h4>Learn</h4>
+				<ul>
+					<li><a href="#">Background on Federal Student Aid</a></li>
+					<li><a href="#">Types of Aid</a></li>
+					<li><a href="#">Who Gets Aid</a></li>
+					<li><a href="#">What You Need to Apply</a></li>
+				</ul>
+			</div>
+			<div class="span2">
+				<h4>Prepare</h4>
+				<ul>
+					<li><a href="#">Compare Schools</a></li>
+					<li><a href="#">Compare Degrees</a></li>
+					<li><a href="#">Compare Careers</a></li>
+					<li><a href="#">FAFSA4Caster</a></li>
+				</ul>
+			</div>
+			<div class="span2 double-wide">
+				<h4>Apply</h4>
+				<ul>
+					<li><a href="#">Complete a FAFSA</a></li>
+					<li><a href="#">Complete an MPN</a></li>
+					<li><a href="#">Complete Counseling</a></li>
+					<li><a href="#">Apply for a PLUS Loan</a></li>
+					<li><a href="#">Document Extenuating Circumstances</a></li>
+					<li><a href="#">Complete an Endorser Addendum</a></li>
+				</ul>
+			</div>
+			<div class="span2 double-wide">
+				<h4>Repay</h4>
+				<ul>
+					<li><a href="#">Understand Repayment</a></li>
+					<li><a href="#">Repayment Estimator</a></li>
+					<li><a href="#">Find Your Loan Servicer</a></li>
+					<li><a href="#">Apply for Income Driven Repayment Plans</a></li>
+					<li><a href="#">Consolidate Your Loans</a></li>
+					<li><a href="#">Make Loan Payment</a></li>
+				</ul>
+			</div>
+			<div class="span2">
+				<h4>More Information</h4>
+				<ul>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Site Security</a></li>
+					<li><a href="#">Terms &amp; Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row-fluid sub-footer">
+			<div class="span12">
+				<a href="#">FOIA</a> | <a href="#">Privacy</a> | <a href="#">Notices</a> | <a href="#">usa.gov</a> | <a href="#">ed.gov</a> | <a href="#">whitehouse.gov</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+      
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="../js/vendor/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.validate.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.knob.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="../js/vendor/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+  </body>
+</html>
